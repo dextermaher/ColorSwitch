@@ -17,6 +17,7 @@
 		F428B3912602C7D600489865 /* bling.wav in Resources */ = {isa = PBXBuildFile; fileRef = F428B3902602C7D600489865 /* bling.wav */; };
 		F428B3972602CFB100489865 /* fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = F428B3962602CFB100489865 /* fail.wav */; };
 		F428B39A2604168B00489865 /* wxp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F428B3992604168B00489865 /* wxp.mp3 */; };
+		F428B39D2604221300489865 /* GameScene+setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F428B39C2604221300489865 /* GameScene+setup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F428B3902602C7D600489865 /* bling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bling.wav; path = ../../../../Downloads/bling.wav; sourceTree = "<group>"; };
 		F428B3962602CFB100489865 /* fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fail.wav; path = ../../../../Downloads/fail.wav; sourceTree = "<group>"; };
 		F428B3992604168B00489865 /* wxp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wxp.mp3; path = ../../../../Downloads/wxp.mp3; sourceTree = "<group>"; };
+		F428B39C2604221300489865 /* GameScene+setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+setup.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				F41BFB4325FAF21C00DAC553 /* GameScene.swift */,
+				F428B39C2604221300489865 /* GameScene+setup.swift */,
 				F428B38D2601737500489865 /* MenuScene.swift */,
 			);
 			path = Scenes;
@@ -185,6 +188,7 @@
 			files = (
 				F41BFB4425FAF21C00DAC553 /* GameScene.swift in Sources */,
 				F41BFB4625FAF21C00DAC553 /* GameViewController.swift in Sources */,
+				F428B39D2604221300489865 /* GameScene+setup.swift in Sources */,
 				F428B38E2601737500489865 /* MenuScene.swift in Sources */,
 				F41BFB5B25FC3FAD00DAC553 /* Settings.swift in Sources */,
 				F41BFB3E25FAF21C00DAC553 /* AppDelegate.swift in Sources */,
